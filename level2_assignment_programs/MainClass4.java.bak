@@ -1,0 +1,42 @@
+class MainClass4 
+{
+	public static void main(String[] args) 
+	{
+		
+		Calculator.findSquare();
+		Circle c=new Circle();
+		c.calculateCircumference();
+	}
+}
+class Circle
+{
+	public void calculateArea()
+	{
+		int r=2;
+		System.out.println("Area of circle with radius "+r+" is "+(3.14*r*r));
+	}
+	public void calculateCircumference()
+	{
+		int r=2;
+		System.out.println("Circumference of circle with radius "+r+" is "+(2*3.14*2));
+		Calculator.findCube();
+
+	}
+}
+class  Calculator	
+{
+	
+	public static void findSquare()
+	{
+		int n=2;
+		System.out.println("Square of a number "+n+" is "+(n*n));
+		Circle c=new Circle();
+		c.calculateArea();
+	}
+	public static void  findCube()
+	{
+		int n=2;
+		System.out.println("Cube of a number "+n+" is "+(n*n*n));
+
+	}
+}

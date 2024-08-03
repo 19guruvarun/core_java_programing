@@ -1,0 +1,19 @@
+class Bike 
+{
+	public static void main(String[] args) 
+	{
+		
+		System.out.println("main starts...");
+		travel();
+		System.out.println("main ends...");
+	}
+	public static void travel(){
+		Bike b=new Bike();
+		System.out.println("traveling with bike");
+		b.racing();
+	}
+	public void racing(){
+		System.out.println("racing starts");
+
+	}
+}

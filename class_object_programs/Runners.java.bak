@@ -1,0 +1,21 @@
+class Runners 
+{
+		public static double distance=10;
+		public String runnerName;
+		public double speed;
+	public static void main(String[] args) 
+	{
+		
+			Runners r1=new Runners();
+			
+			r1.runnerName="RAJ";
+			r1.speed=5;
+			r1.runnerName="JAMES";
+			r1.speed=7;
+			
+			System.out.println("----Runners Details-------");
+			System.out.println(r1.runnerName+" runs "+distance+"Km marathon at the speed of "+r1.speed+"Km/Hr and "+r1.runnerName+" completes the race in "+(distance/r1.speed)+" hrs.");
+			System.out.println(r1.runnerName+" runs "+distance+"Km marathon at the speed of "+r1.speed+"Km/Hr and "+r1.runnerName+" completes the race in "+(distance/r1.speed)+" hrs.");
+
+	}
+}

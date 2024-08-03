@@ -1,0 +1,17 @@
+class  PayRollSystem
+{
+	public static void main(String[] args) 
+	{
+		calculateSalary();
+
+	}
+	public static void calculateSalary() 
+	{
+		System.out.println("Calculate the salary");
+		generatePaySlip();
+	}
+	public static void generatePaySlip() 
+	{
+		System.out.println("generate the pay slip");
+	}
+}
